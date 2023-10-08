@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Боярчук М.О., ЛР 2, Варіант 4</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="container">
+        <div class="container-form">
+            <h2>Форма для заповнення</h2>
+            <form name="RegForm" onsubmit="return validateForm()">
+            <div class="form-line">
+                <input class="valid"  type="text" id="name" name="name" placeholder="ПІБ">
+            </div>
+            <div class="form-line">
+                <input class="valid" type="text" id="IDcard" name="IDcard" placeholder="ID-card">
+            </div>
+            <div class="form-line">
+                <input class="valid" type="text" id="faculty" name="faculty" placeholder="Факультет">
+            </div>
+            <div class="form-line">
+                <input class="valid" type="text" id="birthdate" name="birthDate" placeholder="Дата народження" >
+            </div>
+            <div class="form-line">
+                <input class="valid" type="text" id="address" name="address" placeholder="Адреса">
+            </div>
+            <div class="form-line">
+                <button>Підтвердити</button>
+            </div>
+          </form>
+
+</div>
+
+    <div class="response-block" id="response-block">
+        <h3> Введені дані</h3>
+        <div class="value-field">
+            <div class="value-title">ПІБ:</div>
+            <div class="value-data" id="name-value"></div>
+        </div>
+        <div class="value-field">
+            <div class="value-title">ID-card: </div>
+            <div class="value-data" id="IDcard-value"></div>
+        </div>
+        <div class="value-field">
+            <div class="value-title">Факультет: </div>
+            <div class="value-data" id="faculty-value"></div>
+        </div>
+        <div class="value-field">
+            <div class="value-title">Дата народження: </div>
+            <div class="value-data" id="birthdate-value"></div>
+        </div>
+        <div class="value-field">
+            <div class="value-title">Адреса: </div>
+            <div class="value-data" id="address-value"></div>
+        </div>
+    </div>
+    </div>
+
+       
+    <div id="table-group">
+        <input type="color" id="color">
+        <table id="table"></table>
+    </div>
+    
+        <script src="script.js" async></script>
+
+
+
+    
+</body>
+</html>

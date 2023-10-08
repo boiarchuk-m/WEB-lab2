@@ -1,0 +1,56 @@
+.container{
+    display:flex;
+    list-style-type: none; 
+    margin: 20px;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+.container-form{
+    margin: 20px 0;
+    padding: 20px 30px;
+    text-align: center;
+}
+.response-block{
+    margin: 20px 0;
+    padding: 20px 30px;
+    display: none;
+}
+
+.form-line {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    
+}
+
+.form-line input{
+    padding: 10px;
+}
+button{
+    border:1px solid black;
+    height: 35px;
+    font-weight: bold;
+}
+
+#color {
+    width: 260px;
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+table, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+#table-group {
+    margin: 25px;
+}
+
+td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+
